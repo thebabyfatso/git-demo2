@@ -10,5 +10,7 @@ public class GitDemo {
         System.out.println("hello git");
         System.out.println("git demo");
         System.out.println("master git");
+        System.out.println("hot fix");
+        System.out.println("version 2.0");
     }
 }
