@@ -1,5 +1,6 @@
 const fs = require("fs");
 
+console.info("处理文件系统的打开读取写入关闭：")
 console.log("文件准备打开.....");
 fs.open("input.txt", "r+", function (err, fd) {
     if (err) {
